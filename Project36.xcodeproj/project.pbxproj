@@ -9,25 +9,33 @@
 /* Begin PBXBuildFile section */
 		010524F11E6C97DA00E92C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524F01E6C97DA00E92C95 /* AppDelegate.swift */; };
 		010524F31E6C97DA00E92C95 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 010524F21E6C97DA00E92C95 /* GameScene.sks */; };
-		010524F51E6C97DA00E92C95 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 010524F41E6C97DA00E92C95 /* Actions.sks */; };
 		010524F71E6C97DA00E92C95 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524F61E6C97DA00E92C95 /* GameScene.swift */; };
 		010524F91E6C97DA00E92C95 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010524F81E6C97DA00E92C95 /* GameViewController.swift */; };
 		010524FC1E6C97DA00E92C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010524FA1E6C97DA00E92C95 /* Main.storyboard */; };
 		010524FE1E6C97DA00E92C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010524FD1E6C97DA00E92C95 /* Assets.xcassets */; };
 		010525011E6C97DA00E92C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010524FF1E6C97DA00E92C95 /* LaunchScreen.storyboard */; };
+		0105250D1E6C99CC00E92C95 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 010525091E6C99CC00E92C95 /* music.m4a */; };
+		0105250E1E6C99CC00E92C95 /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0105250A1E6C99CC00E92C95 /* PlayerExplosion.sks */; };
+		010525101E6C99CC00E92C95 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0105250C1E6C99CC00E92C95 /* spark.png */; };
+		010525131E6C9A0B00E92C95 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 010525111E6C9A0B00E92C95 /* coin.wav */; };
+		010525141E6C9A0B00E92C95 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 010525121E6C9A0B00E92C95 /* explosion.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		010524ED1E6C97DA00E92C95 /* Project36.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project36.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		010524F01E6C97DA00E92C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		010524F21E6C97DA00E92C95 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		010524F41E6C97DA00E92C95 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		010524F61E6C97DA00E92C95 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		010524F81E6C97DA00E92C95 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		010524FB1E6C97DA00E92C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		010524FD1E6C97DA00E92C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		010525001E6C97DA00E92C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		010525021E6C97DA00E92C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010525091E6C99CC00E92C95 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+		0105250A1E6C99CC00E92C95 /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		0105250C1E6C99CC00E92C95 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		010525111E6C9A0B00E92C95 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		010525121E6C9A0B00E92C95 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +68,9 @@
 		010524EF1E6C97DA00E92C95 /* Project36 */ = {
 			isa = PBXGroup;
 			children = (
+				010525081E6C997000E92C95 /* Content */,
 				010524F01E6C97DA00E92C95 /* AppDelegate.swift */,
 				010524F21E6C97DA00E92C95 /* GameScene.sks */,
-				010524F41E6C97DA00E92C95 /* Actions.sks */,
 				010524F61E6C97DA00E92C95 /* GameScene.swift */,
 				010524F81E6C97DA00E92C95 /* GameViewController.swift */,
 				010524FA1E6C97DA00E92C95 /* Main.storyboard */,
@@ -71,6 +79,18 @@
 				010525021E6C97DA00E92C95 /* Info.plist */,
 			);
 			path = Project36;
+			sourceTree = "<group>";
+		};
+		010525081E6C997000E92C95 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				010525111E6C9A0B00E92C95 /* coin.wav */,
+				010525121E6C9A0B00E92C95 /* explosion.wav */,
+				010525091E6C99CC00E92C95 /* music.m4a */,
+				0105250A1E6C99CC00E92C95 /* PlayerExplosion.sks */,
+				0105250C1E6C99CC00E92C95 /* spark.png */,
+			);
+			name = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +153,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010525141E6C9A0B00E92C95 /* explosion.wav in Resources */,
+				0105250E1E6C99CC00E92C95 /* PlayerExplosion.sks in Resources */,
 				010524FC1E6C97DA00E92C95 /* Main.storyboard in Resources */,
 				010524F31E6C97DA00E92C95 /* GameScene.sks in Resources */,
 				010524FE1E6C97DA00E92C95 /* Assets.xcassets in Resources */,
+				0105250D1E6C99CC00E92C95 /* music.m4a in Resources */,
+				010525131E6C9A0B00E92C95 /* coin.wav in Resources */,
+				010525101E6C99CC00E92C95 /* spark.png in Resources */,
 				010525011E6C97DA00E92C95 /* LaunchScreen.storyboard in Resources */,
-				010524F51E6C97DA00E92C95 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
